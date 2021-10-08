@@ -18,7 +18,7 @@
  
  ###### The maintainer, this project and all contained files are in no way associated with the game New World, Amazon Game Studios(AGS), Amazon Games, Amazon, or any of it's affiliates. New World is a registered trademark of Amazon Games.
  
- ##### The maintainer and this project are in no way associated with Google or any Alphabet owned company. PyTesseract, Tesseract are all used under the Apache 2.0 License and maintainer affirms no changes have been made to the distribution. This project is also distributed with an Apache 2.0 License for convenience in terms.
+ ###### The maintainer and this project are in no way associated with Google or any Alphabet owned company. PyTesseract, Tesseract are all used under the Apache 2.0 License and maintainer affirms no changes have been made to the distribution. This project is also distributed with an Apache 2.0 License for convenience in terms.
  -------------------------------------
  
  Goals:
