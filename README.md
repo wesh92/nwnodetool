@@ -35,7 +35,7 @@
  
  If you want to PR an executable version for release or fork for yourself that is fine but I won't be doing it for myself!
  
-After you've ensured you have all the necessary packages mentioned in requirements.txt, make sure you _have the game running_ as it will look for it in the process list, and then start the program by clicking on nwocrsounds.py. 
+After you've ensured you have all the necessary packages mentioned in requirements.txt, make sure you _have the game running_ as it will look for it in the process list, you have your coordinates at the top right (Turn on the FPS Counter in settings), and then start the program by clicking on nwocrsounds.py. 
 
 Having **specific issues?** File an Issue in Github.
 
