@@ -1,5 +1,5 @@
 # nwnodetool
-## A simple OCR Nearby Node Tool for NW
+## A simple OCR Nearby Node Tool for New World
  -------------------------------------
  ! This has only been tested on Windows 10, any other OS or version of Windows will not see direct support from me both because I don't have access to it AND because I simply don't care to make it work with other OSes. 
  
@@ -8,6 +8,17 @@
  -------------------------------------
  Special thanks to the team over at **https://www.newworld-map.com** whose marker JSON file I used to create the lists of coordinates for this program!
  
+ This script uses OCR to take a screenshot of the top right of your game window (where the FPS Counter/Ping Counter/Coordinates are), crops them down to X and Y coordinates and compares those coordinates against a list of known coordinates for nodes.
+ 
+ When it does find a match, it will make a beep to call your attention to it. It makes a screen grab every 3 seconds.
+ 
+ As with _ALL_ OCR-based scripts, the detection _WILL BE_ hit or miss especially if you have a bright, mixed color, or similarly light-yellow colored backgroud behind the coordinates. Lowering your brightness or gamma may help you! YMMV.
+ 
+ ***I want to be very clear that this script in no way interacts directly with the game, your RAM, hard drive (other than temp saving the screen shots for processing), network interface, or any other software or hardware. It simply takes a screenshot and compares it against a list of coordinates. Anyone could get these coordinates, it's the same as having the new world interactive map above up on another screen.***
+ 
+ ###### The maintainer, this project and all contained files are in no way associated with the game New World, Amazon Game Studios(AGS), Amazon Games, Amazon, or any of it's affiliates. New World is a registered trademark of Amazon Games.
+ 
+ ##### The maintainer and this project are in no way associated with Google or any Alphabet owned company. PyTesseract, Tesseract are all used under the Apache 2.0 License and maintainer affirms no changes have been made to the distribution. This project is also distributed with an Apache 2.0 License for convenience in terms.
  -------------------------------------
  
  Goals:
