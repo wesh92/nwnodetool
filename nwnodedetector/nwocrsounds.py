@@ -14,13 +14,15 @@ import psutil
 from time import sleep
 import pathlib
 import iron_markers as imark
+import essence_markers as emark
+import chest_essence as ce
 import numpy as np
 
 # for 3440*1440 : (3182,19,3416,39)
 localpath = str(pathlib.Path(__file__).parent.resolve())
 pytesseract.pytesseract.tesseract_cmd = rf"{localpath}\Tesseract-OCR\tesseract.exe"
 # node = [['7831', '1673'], ['9341', '2725']] 
-node = imark.iron
+node = ce.chest_essence
 def screen_loc_check(items, screen_img):
 
     z = ImageOps.crop(screen_img, (173,0,50,0))
